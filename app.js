@@ -162,6 +162,9 @@ Hint: Initialize the `odds` variable to an empty array before the iteration.
 Complete Exercise 11 in the space below:
 */
 
-//const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90];
+const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90];
+const odds = []
+odds.push(5, 23, 15, 21, 9, 45, 7, 81)
+for (let i = 0; i < odds.length; i++)
 
-//console.log('Exercise 11 result:', odds);
+console.log('Exercise 11 result:', odds);
